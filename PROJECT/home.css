@@ -1,0 +1,35 @@
+body{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+
+.homemain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.homelogo{
+    margin-bottom: 40px;
+}
+
+.homelogo img{
+    width: 400px;
+}
+#start{
+    background-color: #9172ed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(214, 214, 214, 0.19);
+    border: none;
+    color: white;
+    margin: 40px;
+}
+#start:hover{
+    background-color: #7e62d3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
